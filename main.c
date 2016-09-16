@@ -2,10 +2,10 @@
 #include <math.h>
 int main()
 {
-    float G, F, Y, x, a;
+    double G, F, Y, x, a;
     const double pi=3.14;
-    scanf("%f", &x);
-    scanf("%f", &a);
+    scanf("%lf", &x);
+    scanf("%lf", &a);
 
 
     G=(5*(-10*pow(a,2)+27*a*x+28*pow(x,2)))/(5*pow(a,2)-9*a*x+4*pow(x,4));
