@@ -1,0 +1,3 @@
+ #!/bin/bash 
+gcc -c variant60.c -lm
+
