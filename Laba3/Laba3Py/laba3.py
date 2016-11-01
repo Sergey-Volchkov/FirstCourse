@@ -1,4 +1,3 @@
-import math
 from numpy import *
 import matplotlib.pyplot as plt
 
@@ -6,13 +5,13 @@ y_values = []
 x_values = []
 values = []
 
+
 uslovie = int(1)
 first_average_arifmetic = float
 finally_average_arifmetic = float
 for_y = int(1)
 for_values = int(1)
 i = int(0)
-value = float
 w = str('X=')
 h = str('Y=')
 while uslovie == 1:
@@ -22,50 +21,6 @@ while uslovie == 1:
     r = float(input('Введите размер шага= '))
     n = float(input(
         'Введите: \nN = 1 для нахождения значения переменной G.\nN = 2 для нахождения значения переменной F.\nN = 3 для нахождения значения переменной Y.'))
-
-    def adaptive_step():
-        global values, for_y, for_values, r, x, n, first_average_arifmetic, finally_average_arifmetic
-        if for_values == 1:
-            values = y_values[:1]
-            for_values += 1
-            for_y += 1
-            x += r
-        elif for_values == 2:
-            values = y_values[:2]
-            for_values = 1
-            for_y += 1
-            x += r
-        else:
-            if i == 1 and i!= 0:
-                first_average_arifmetic = sum(values) / 2
-            elif i == 0:
-                 x += r
-                 values.clear()
-            else:
-                finally_average_arifmetic = sum(values) / 2
-                if first_average_arifmetic >= 0.0 and finally_average_arifmetic >= 0.0:
-                    if first_average_arifmetic < 1.2 * finally_average_arifmetic:
-                        x += r * 2
-                        values.clear()
-                        first_average_arifmetic = finally_average_arifmetic
-                    elif first_average_arifmetic > 1.2 * finally_average_arifmetic:
-                        x += r / 2
-                        values.clear()
-                    else:
-                        x += r
-                        values.clear()
-                else:
-                    if first_average_arifmetic > 1.2 * finally_average_arifmetic:
-                        x += r * 2
-                        values.clear()
-                        first_average_arifmetic = finally_average_arifmetic
-                    elif first_average_arifmetic < 1.2 * finally_average_arifmetic:
-                        x += r / 2
-                        values.clear()
-                    else:
-                        x += r
-                        values.clear()
-
     if n == 1:
         while x < x1:
             if 0 != (5 * a ** 2 - 9 * a * x + 4 * x ** 2):
@@ -76,7 +31,30 @@ while uslovie == 1:
                 print(round(G, 3))
                 x_values.append(x)
                 y_values.append(G)
-                adaptive_step()
+                if i > 0:
+                    values = y_values[i-1:i+1]
+
+                if i == 1:
+                    first_average_arifmetic = fabs(sum(values) / 2)
+                    x += 1
+                elif i > 1:
+                    finally_average_arifmetic = fabs(sum(values) / 2)
+                    if i > 1:
+                        if first_average_arifmetic < 1.2 * finally_average_arifmetic:
+                            x += r * 3
+                            first_average_arifmetic = finally_average_arifmetic
+                        elif first_average_arifmetic > 1.2 * finally_average_arifmetic:
+                            x += r / 3
+                            first_average_arifmetic = finally_average_arifmetic
+                            del values[:]
+                        else:
+                            x += r
+                            del values[:]
+                    else:
+                        x += r
+                        del values[:]
+                else:
+                    x += r
                 i += 1
                 print('Количество шагов: ', str(i))
             else:
@@ -96,7 +74,30 @@ while uslovie == 1:
                 print(round(F, 3))
                 x_values.append(x)
                 y_values.append(F)
-                adaptive_step()
+                if i > 0:
+                    values = y_values[i-1:i+1]
+
+                if i == 1:
+                    first_average_arifmetic = fabs(sum(values) / 2)
+                    x += 1
+                elif i > 1:
+                    finally_average_arifmetic = fabs(sum(values) / 2)
+                    if i > 1:
+                        if first_average_arifmetic < 1.2 * finally_average_arifmetic:
+                            x += r * 3
+                            first_average_arifmetic = finally_average_arifmetic
+                        elif first_average_arifmetic > 1.2 * finally_average_arifmetic:
+                            x += r / 3
+                            first_average_arifmetic = finally_average_arifmetic
+                            del values[:]
+                        else:
+                            x += r
+                            del values[:]
+                    else:
+                        x += r
+                        del values[:]
+                else:
+                    x += r
                 i += 1
                 print('Количество шагов: ', str(i))
             else:
@@ -115,7 +116,30 @@ while uslovie == 1:
                 print(round(Y, 3))
                 x_values.append(x)
                 y_values.append(Y)
-                adaptive_step()
+                if i > 0:
+                    values = y_values[i-1:i+1]
+
+                if i == 1:
+                    first_average_arifmetic = fabs(sum(values) / 2)
+                    x += 1
+                elif i > 1:
+                    finally_average_arifmetic = fabs(sum(values) / 2)
+                    if i > 1:
+                        if first_average_arifmetic < 1.2 * finally_average_arifmetic:
+                            x += r * 3
+                            first_average_arifmetic = finally_average_arifmetic
+                        elif first_average_arifmetic > 1.2 * finally_average_arifmetic:
+                            x += r / 3
+                            first_average_arifmetic = finally_average_arifmetic
+                            del values[:]
+                        else:
+                            x += r
+                            del values[:]
+                    else:
+                        x += r
+                        del values[:]
+                else:
+                    x += r
                 i += 1
                 print('Количество шагов: ', str(i))
             else:
@@ -136,3 +160,4 @@ while uslovie == 1:
         break
     else:
         continue
+

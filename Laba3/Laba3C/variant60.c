@@ -79,7 +79,6 @@ int main() {
                     while (x <= x1) {
                         F = sin(28 * pow(a, 2) - 57 * a * x + 14 * pow(x, 2));
                         if ((F >= -1) && (F <= 1)) {
-                            printf("X=%lf,  Y=%.2lf\n", x, F);
                             fprintf(v, "%.3lf %.3lf\n", x, G);
 
                             if (j == 0) {

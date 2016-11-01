@@ -41,7 +41,6 @@ while uslovie == 1:
             elif i == 0:
                  x += r
                  values.clear()
-                 values.clear()
             else:
                 finally_average_arifmetic = sum(values) / 2
                 if first_average_arifmetic >= 0.0 and finally_average_arifmetic >= 0.0:
