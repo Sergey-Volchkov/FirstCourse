@@ -98,7 +98,7 @@ int main() {
                                 y = y2;
                             } else {
                                 if ((fabs(y) < 1.2 * fabs(y2)) && (j > 1) && (y2 != 0)) {
-                                    x += r * 2;
+                                    x += r / 2;
                                     y = y2;
                                 } else x += r;
                                 if (j > 1) {
@@ -138,7 +138,7 @@ int main() {
                                 y = y2;
                             } else {
                                 if ((fabs(y) < 1.2 * fabs(y2)) && (j > 1) && (y2 != 0)) {
-                                    x += r * 2;
+                                    x += r / 2;
                                     y = y2;
                                 } else x += r;
                                 if (j > 1) {
