@@ -78,56 +78,53 @@ int main() {
                 case 2:
                     while (x <= x1) {
                         F = sin(28 * pow(a, 2) - 57 * a * x + 14 * pow(x, 2));
-                        if ((F >= -1) && (F <= 1)) {
-                            fprintf(v, "%.3lf %.3lf\n", x, G);
 
-                            if (j == 0) {
-                                y_values[1] = G;
-                                printf("X=%.3lf Y=%.3lf\n", x, G);
-                            }
-                            if (j >= 1) {
-                                y_values[2] = G;
-                                printf("X=%.3lf Y=%.3lf\n", x, G);
-                            }
-                            if (j == 1)
-                                y = (y_values[1] + y_values[2]) / 2;
-                            else if (j > 1)
-                                y2 = (y_values[1] + y_values[2]) / 2;
-                            if ((fabs(y) > 1.2 * fabs(y2)) && (j > 1) && (y2 != 0)) {
-                                x += r * 2;
+                        fprintf(v, "%.3lf %.3lf\n", x, F);
+
+                        if (j == 0) {
+                            y_values[1] = F;
+                            printf("X=%.3lf Y=%.3lf\n", x, F);
+                        }
+                        if (j >= 1) {
+                            y_values[2] = F;
+                            printf("X=%.3lf Y=%.3lf\n", x, F);
+                        }
+                        if (j == 1)
+                            y = (y_values[1] + y_values[2]) / 2;
+                        else if (j > 1)
+                            y2 = (y_values[1] + y_values[2]) / 2;
+                        if ((fabs(y) > 1.2 * fabs(y2)) && (j > 1) && (y2 != 0)) {
+                            x += r * 2;
+                            y = y2;
+                        } else {
+                            if ((fabs(y) < 1.2 * fabs(y2)) && (j > 1) && (y2 != 0)) {
+                                x += r / 2;
                                 y = y2;
-                            } else {
-                                if ((fabs(y) < 1.2 * fabs(y2)) && (j > 1) && (y2 != 0)) {
-                                    x += r / 2;
-                                    y = y2;
-                                } else x += r;
-                                if (j > 1) {
-                                    y = y2;
-                                }
+                            } else x += r;
+                            if (j > 1) {
+                                y = y2;
                             }
-                            j += 1;
-                            printf("Количество шагов:%i\n", j);
-                            continue;
+                        }
+                        j += 1;
+                        printf("Количество шагов:%i\n", j);
+                        continue;
 
-                        } else
-                            printf("%s\n",
-                                   "Переменная F не принадлежит отрезку синуса от -1 до 1. Введите другие значения");
                         break;
                     }
                     break;
                 case 3:
                     while (x <= x1) {
                         Y = log(-27 * pow(a, 2) + 24 * a * x + 35 * pow(x, 2) + 1);
-                        if (Y > 0) {
-                            fprintf(v, "%.3lf %.3lf\n", x, G);
+                        if (log(-27 * pow(a, 2) + 24 * a * x + 35 * pow(x, 2) + 1) > 0) {
+                            fprintf(v, "%.3lf %.3lf\n", x, Y);
 
                             if (j == 0) {
-                                y_values[1] = G;
-                                printf("X=%.3lf Y=%.3lf\n", x, G);
+                                y_values[1] = Y;
+                                printf("X=%.3lf Y=%.3lf\n", x, Y);
                             }
                             if (j >= 1) {
-                                y_values[2] = G;
-                                printf("X=%.3lf Y=%.3lf\n", x, G);
+                                y_values[2] = Y;
+                                printf("X=%.3lf Y=%.3lf\n", x, Y);
                             }
                             if (j == 1)
                                 y = (y_values[1] + y_values[2]) / 2;

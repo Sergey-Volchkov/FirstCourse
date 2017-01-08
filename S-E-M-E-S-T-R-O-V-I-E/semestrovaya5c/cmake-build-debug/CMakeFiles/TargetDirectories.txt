@@ -1,0 +1,3 @@
+/home/argo/Desktop/For-PenzGTU/S-E-M-E-S-T-R-O-V-I-E/semestrovaya5c/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/argo/Desktop/For-PenzGTU/S-E-M-E-S-T-R-O-V-I-E/semestrovaya5c/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/argo/Desktop/For-PenzGTU/S-E-M-E-S-T-R-O-V-I-E/semestrovaya5c/cmake-build-debug/CMakeFiles/semestrovaya5c.dir

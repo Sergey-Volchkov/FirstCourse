@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/argo/Desktop/For-PenzGTU/Laba5/Laba5C/variant60.c
+stdio.h
+-
+stdlib.h
+-
+math.h
+-
+malloc.h
+-
+ctype.h
+-
+string.h
+-
+

@@ -3,7 +3,6 @@
 int main()
 {
      double G, F, Y, x, a;
-     const double pi=3.14;
      scanf("%lf", &x);
      scanf("%lf", &a);
 

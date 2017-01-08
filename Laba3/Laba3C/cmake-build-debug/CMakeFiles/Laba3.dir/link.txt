@@ -1,0 +1,1 @@
+/usr/bin/cc   -std=c90 -g   CMakeFiles/Laba3.dir/variant60.c.o  -o Laba3 -lm 

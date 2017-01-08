@@ -1,0 +1,1 @@
+/usr/bin/cc   -std=c90 -g   CMakeFiles/Labs2C.dir/Variant60.c.o  -o Labs2C -lm 

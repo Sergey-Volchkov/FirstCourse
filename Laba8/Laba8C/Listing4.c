@@ -10,7 +10,6 @@ float fadd_byValue(float a_firstValue, float a_secondValue)
     return a_resultValue;
 }
 
-
 float fadd_byAddress(float *a_firstValue, float *a_secondValue)
 {
     float a_resultValue;
@@ -20,15 +19,12 @@ float fadd_byAddress(float *a_firstValue, float *a_secondValue)
     return a_resultValue;
 }
 
-
 int main(void)
 {
     float m_firstValue = 0.0f, m_secondValue = 0.0f;
     float m_resultValue;
 
-
     printf("Pass arguments by VALUE:\n");
-
 
     printf("before: m_firstValue=%lf\n", m_firstValue);
     printf("before: m_secondValue=%lf\n", m_secondValue);
@@ -37,9 +33,7 @@ int main(void)
     printf("after: m_firstValue=%lf\n", m_firstValue);
     printf("after: m_secondValue=%lf\n\n", m_secondValue);
 
-
     printf("Pass arguments by ADDRESS:\n");
-
 
     printf("before: m_firstValue=%lf\n", m_firstValue);
     printf("before: m_secondValue=%lf\n", m_secondValue);
@@ -50,7 +44,3 @@ int main(void)
 
     return 0;
 }
-
-
-
-

@@ -1,0 +1,3 @@
+/home/argo/Desktop/For-PenzGTU/Laba8/Laba8C/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/argo/Desktop/For-PenzGTU/Laba8/Laba8C/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/argo/Desktop/For-PenzGTU/Laba8/Laba8C/cmake-build-debug/CMakeFiles/Laba8C.dir

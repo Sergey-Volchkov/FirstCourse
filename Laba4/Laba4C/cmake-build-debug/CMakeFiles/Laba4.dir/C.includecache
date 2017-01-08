@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/argo/Desktop/For-PenzGTU/Laba4/Laba4C/laba4.c
+stdio.h
+-
+math.h
+-
+malloc.h
+-
+

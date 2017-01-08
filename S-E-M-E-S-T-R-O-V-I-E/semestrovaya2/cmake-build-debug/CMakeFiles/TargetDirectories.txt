@@ -1,0 +1,3 @@
+/home/argo/ClionProjects/semestrovaya2/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/argo/ClionProjects/semestrovaya2/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/argo/ClionProjects/semestrovaya2/cmake-build-debug/CMakeFiles/semestrovaya2.dir
