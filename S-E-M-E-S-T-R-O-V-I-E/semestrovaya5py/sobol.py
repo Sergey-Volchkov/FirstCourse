@@ -1,7 +1,7 @@
 from PIL import Image, ImageDraw
 import math
 
-image = Image.open("/home/argo/Desktop/For-PenzGTU/S-E-M-E-S-T-R-O-V-I-E/semestrovaya5py/lena.jpg")  # Открываем изображение.
+image = Image.open("/home/argo/Desktop/For-PenzGTU/S-E-M-E-S-T-R-O-V-I-E/semestrovaya5py/lena.jpg")  
 draw = ImageDraw.Draw(image)
 width = image.size[0]
 height = image.size[1]

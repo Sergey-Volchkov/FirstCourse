@@ -123,6 +123,33 @@ semestrovaya5c/fast:
 	$(MAKE) -f CMakeFiles/semestrovaya5c.dir/build.make CMakeFiles/semestrovaya5c.dir/build
 .PHONY : semestrovaya5c/fast
 
+bl.o: bl.c.o
+
+.PHONY : bl.o
+
+# target to build an object file
+bl.c.o:
+	$(MAKE) -f CMakeFiles/semestrovaya5c.dir/build.make CMakeFiles/semestrovaya5c.dir/bl.c.o
+.PHONY : bl.c.o
+
+bl.i: bl.c.i
+
+.PHONY : bl.i
+
+# target to preprocess a source file
+bl.c.i:
+	$(MAKE) -f CMakeFiles/semestrovaya5c.dir/build.make CMakeFiles/semestrovaya5c.dir/bl.c.i
+.PHONY : bl.c.i
+
+bl.s: bl.c.s
+
+.PHONY : bl.s
+
+# target to generate assembly for a file
+bl.c.s:
+	$(MAKE) -f CMakeFiles/semestrovaya5c.dir/build.make CMakeFiles/semestrovaya5c.dir/bl.c.s
+.PHONY : bl.c.s
+
 qdbmp.o: qdbmp.c.o
 
 .PHONY : qdbmp.o
@@ -150,33 +177,6 @@ qdbmp.c.s:
 	$(MAKE) -f CMakeFiles/semestrovaya5c.dir/build.make CMakeFiles/semestrovaya5c.dir/qdbmp.c.s
 .PHONY : qdbmp.c.s
 
-sobel.o: sobel.c.o
-
-.PHONY : sobel.o
-
-# target to build an object file
-sobel.c.o:
-	$(MAKE) -f CMakeFiles/semestrovaya5c.dir/build.make CMakeFiles/semestrovaya5c.dir/sobel.c.o
-.PHONY : sobel.c.o
-
-sobel.i: sobel.c.i
-
-.PHONY : sobel.i
-
-# target to preprocess a source file
-sobel.c.i:
-	$(MAKE) -f CMakeFiles/semestrovaya5c.dir/build.make CMakeFiles/semestrovaya5c.dir/sobel.c.i
-.PHONY : sobel.c.i
-
-sobel.s: sobel.c.s
-
-.PHONY : sobel.s
-
-# target to generate assembly for a file
-sobel.c.s:
-	$(MAKE) -f CMakeFiles/semestrovaya5c.dir/build.make CMakeFiles/semestrovaya5c.dir/sobel.c.s
-.PHONY : sobel.c.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -186,12 +186,12 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... semestrovaya5c"
+	@echo "... bl.o"
+	@echo "... bl.i"
+	@echo "... bl.s"
 	@echo "... qdbmp.o"
 	@echo "... qdbmp.i"
 	@echo "... qdbmp.s"
-	@echo "... sobel.o"
-	@echo "... sobel.i"
-	@echo "... sobel.s"
 .PHONY : help
 
 

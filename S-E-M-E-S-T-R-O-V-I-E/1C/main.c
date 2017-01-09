@@ -1,6 +1,6 @@
 #include<stdio.h>
 
-void main() {
+int main() {
     const double eps = 0.000001;
     double sqrt = 0, n, root = 0;
     printf("Введите число, корень которого хотите найти:\n");
@@ -13,5 +13,5 @@ void main() {
     }
 
     printf("Квадрат числа равен:\n%.5lf Кольво шагов:%i", root, i);
-
+    return 0;
 }

@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
+  "/home/argo/Desktop/For-PenzGTU/S-E-M-E-S-T-R-O-V-I-E/semestrovaya5c/bl.c" "/home/argo/Desktop/For-PenzGTU/S-E-M-E-S-T-R-O-V-I-E/semestrovaya5c/cmake-build-debug/CMakeFiles/semestrovaya5c.dir/bl.c.o"
   "/home/argo/Desktop/For-PenzGTU/S-E-M-E-S-T-R-O-V-I-E/semestrovaya5c/qdbmp.c" "/home/argo/Desktop/For-PenzGTU/S-E-M-E-S-T-R-O-V-I-E/semestrovaya5c/cmake-build-debug/CMakeFiles/semestrovaya5c.dir/qdbmp.c.o"
-  "/home/argo/Desktop/For-PenzGTU/S-E-M-E-S-T-R-O-V-I-E/semestrovaya5c/sobel.c" "/home/argo/Desktop/For-PenzGTU/S-E-M-E-S-T-R-O-V-I-E/semestrovaya5c/cmake-build-debug/CMakeFiles/semestrovaya5c.dir/sobel.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

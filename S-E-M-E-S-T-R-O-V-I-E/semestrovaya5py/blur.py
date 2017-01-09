@@ -1,10 +1,10 @@
-from PIL import Image, ImageDraw  # Подключим необходимые библиотеки.
+from PIL import Image, ImageDraw
 
-image = Image.open("/home/argo/Desktop/For-PenzGTU/S-E-M-E-S-T-R-O-V-I-E/semestrovaya5py/lena.jpg")  # Открываем изображение.
-draw = ImageDraw.Draw(image)  # Создаем инструмент для рисования.
-width = image.size[0]  # Определяем ширину.
-height = image.size[1]  # Определяем высоту.
-p = image.load()  # Выгружаем значения пикселей.
+image = Image.open("/home/argo/Desktop/For-PenzGTU/S-E-M-E-S-T-R-O-V-I-E/semestrovaya5py/lena.jpg")
+draw = ImageDraw.Draw(image)
+width = image.size[0]
+height = image.size[1]
+p = image.load()
 rad = 3
 i = 4
 

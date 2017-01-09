@@ -48,10 +48,10 @@ RM = /home/argo/Desktop/clion-2016.2.3/bin/cmake/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/argo/ClionProjects/semestrovaya4c
+CMAKE_SOURCE_DIR = /home/argo/Desktop/For-PenzGTU/S-E-M-E-S-T-R-O-V-I-E/semestrovaya4c
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/argo/ClionProjects/semestrovaya4c/cmake-build-debug
+CMAKE_BINARY_DIR = /home/argo/Desktop/For-PenzGTU/S-E-M-E-S-T-R-O-V-I-E/semestrovaya4c/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/argo/ClionProjects/semestrovaya4c/cmake-build-debug/CMakeFiles /home/argo/ClionProjects/semestrovaya4c/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/argo/Desktop/For-PenzGTU/S-E-M-E-S-T-R-O-V-I-E/semestrovaya4c/cmake-build-debug/CMakeFiles /home/argo/Desktop/For-PenzGTU/S-E-M-E-S-T-R-O-V-I-E/semestrovaya4c/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/argo/ClionProjects/semestrovaya4c/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/argo/Desktop/For-PenzGTU/S-E-M-E-S-T-R-O-V-I-E/semestrovaya4c/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target

@@ -1,4 +1,4 @@
  #!/bin/bash 
 gcc 1.c -lm	
 ./a.out
-python3.4 for_c.py
+python3.4 1.py

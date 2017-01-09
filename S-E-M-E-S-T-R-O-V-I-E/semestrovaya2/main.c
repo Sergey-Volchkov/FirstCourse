@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main() {
-    double a,b,x,x1,x2,function,function1,function2,accuraty;
+    double a,b,x,x1,x2,function1,function2,accuraty;
 
     printf("%s", "Введите начальную границу:");
     scanf("%lf", &a);
@@ -20,7 +20,7 @@ int main() {
             else
                 a=x;
     }
-    printf("Результат: %lf \n", a);
-    printf("Результат: %lf \n", b);
+    printf("Точка минимума лежит в границе от : %lf \n", a);
+    printf("До: %lf \n", b);
     return 0;
 }

@@ -35,7 +35,6 @@ int main() {
             C[i][j] = 0;
             for (k = 0; k < n; k++){
                 C[i][j] += A[i][k] * B[k][j];
-                printf("%i %s %i %s %i\n", A[i][k],"*", B[k][j], "=", C[i][j]);
                 if (k == 2)
                     printf("C[%i][%i]=%i\n", i+1,j+1,C[i][j]);
         }

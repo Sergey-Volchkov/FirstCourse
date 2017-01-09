@@ -4,7 +4,7 @@
 
 
 int main() {
-    int i, A[20], n = 3, B[20], j, buf[3], k, l, m = 0, temp;
+    int i, A[20], n = 3, j, buf[4], k, l, m = 0, temp;
     double SMM[22];
 
     ;
@@ -13,19 +13,15 @@ int main() {
 
     for (i = 0; i < 20; i++) {
         A[i] = rand() % 100;
+        printf("%i\n",A[i]);
     }
 
-    while (m <= n * 0.5)
-        m += 1;
-    printf("m = %i\n", (m));
-
-    for (k = 1; k < 19; ++k) {
-        if (k == 1){
+    for (k = 2; k < 19; ++k) {
+        if (k == 2){
             for (i = 0; i < 3; ++i) {
                 buf[i] = A[i];
             }
         }
-
         for (i = 0; i < 2; i++) {
             for (j = 0; j < 2 - i; j++) {
                 if (buf[j] > buf[j + 1]) {
@@ -37,10 +33,12 @@ int main() {
             }
         }
         printf("%i %i %i\n", buf[0], buf[1],buf[2]);
-            SMM[k] = buf[1];
-            buf[0] = A[k-2];
-            buf[1] = A[k-1];
-            buf[2] = A[k];
+        SMM[k] = buf[1];
+        buf[0] = A[k-2];
+        buf[1] = A[k-1];
+        buf[2] = A[k];
+
+
 
 
 

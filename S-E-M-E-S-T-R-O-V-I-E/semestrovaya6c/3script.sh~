@@ -1,4 +1,4 @@
  #!/bin/bash 
-gcc 2.c -lm	
+gcc 3.c -lm	
 ./a.out
 python3.4 for_c.py

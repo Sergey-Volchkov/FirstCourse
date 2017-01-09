@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/argo/ClionProjects/semestrovaya2/main.c" "/home/argo/ClionProjects/semestrovaya2/cmake-build-debug/CMakeFiles/semestrovaya2.dir/main.c.o"
+  "/home/argo/Desktop/For-PenzGTU/S-E-M-E-S-T-R-O-V-I-E/semestrovaya2/main.c" "/home/argo/Desktop/For-PenzGTU/S-E-M-E-S-T-R-O-V-I-E/semestrovaya2/cmake-build-debug/CMakeFiles/semestrovaya2.dir/main.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

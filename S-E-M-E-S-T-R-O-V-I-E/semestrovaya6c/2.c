@@ -7,7 +7,6 @@ int main() {
     double EMA[20],m;
     m =(n+1);
     m = 2/m;
-
     FILE *v;
     v = fopen("/home/argo/Desktop/For-PenzGTU/S-E-M-E-S-T-R-O-V-I-E/semestrovaya6c/text.dat", "w+");
 
@@ -22,7 +21,6 @@ int main() {
             for (j = i-n; j < i ; ++j) {
                 if (j>=1) {
                     p[j] = A[j] + p[j - 1];
-                    printf("sum = %i\n", p[j]);
                 }
             }
         }

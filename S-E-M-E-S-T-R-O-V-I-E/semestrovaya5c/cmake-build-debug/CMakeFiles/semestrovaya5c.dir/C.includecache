@@ -6,6 +6,14 @@
 
 #IncludeRegexTransform: 
 
+/home/argo/Desktop/For-PenzGTU/S-E-M-E-S-T-R-O-V-I-E/semestrovaya5c/bl.c
+qdbmp.h
+/home/argo/Desktop/For-PenzGTU/S-E-M-E-S-T-R-O-V-I-E/semestrovaya5c/qdbmp.h
+stdio.h
+-
+math.h
+-
+
 /home/argo/Desktop/For-PenzGTU/S-E-M-E-S-T-R-O-V-I-E/semestrovaya5c/qdbmp.c
 qdbmp.h
 /home/argo/Desktop/For-PenzGTU/S-E-M-E-S-T-R-O-V-I-E/semestrovaya5c/qdbmp.h
@@ -16,13 +24,5 @@ string.h
 
 /home/argo/Desktop/For-PenzGTU/S-E-M-E-S-T-R-O-V-I-E/semestrovaya5c/qdbmp.h
 stdio.h
--
-
-/home/argo/Desktop/For-PenzGTU/S-E-M-E-S-T-R-O-V-I-E/semestrovaya5c/sobel.c
-qdbmp.h
-/home/argo/Desktop/For-PenzGTU/S-E-M-E-S-T-R-O-V-I-E/semestrovaya5c/qdbmp.h
-stdio.h
--
-math.h
 -
 

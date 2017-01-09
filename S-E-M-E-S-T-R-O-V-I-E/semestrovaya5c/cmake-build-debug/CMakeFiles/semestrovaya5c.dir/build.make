@@ -57,28 +57,28 @@ include CMakeFiles/semestrovaya5c.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/semestrovaya5c.dir/flags.make
 
-CMakeFiles/semestrovaya5c.dir/sobel.c.o: CMakeFiles/semestrovaya5c.dir/flags.make
-CMakeFiles/semestrovaya5c.dir/sobel.c.o: ../sobel.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/argo/Desktop/For-PenzGTU/S-E-M-E-S-T-R-O-V-I-E/semestrovaya5c/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/semestrovaya5c.dir/sobel.c.o"
-	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/semestrovaya5c.dir/sobel.c.o   -c /home/argo/Desktop/For-PenzGTU/S-E-M-E-S-T-R-O-V-I-E/semestrovaya5c/sobel.c
+CMakeFiles/semestrovaya5c.dir/bl.c.o: CMakeFiles/semestrovaya5c.dir/flags.make
+CMakeFiles/semestrovaya5c.dir/bl.c.o: ../bl.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/argo/Desktop/For-PenzGTU/S-E-M-E-S-T-R-O-V-I-E/semestrovaya5c/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/semestrovaya5c.dir/bl.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/semestrovaya5c.dir/bl.c.o   -c /home/argo/Desktop/For-PenzGTU/S-E-M-E-S-T-R-O-V-I-E/semestrovaya5c/bl.c
 
-CMakeFiles/semestrovaya5c.dir/sobel.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/semestrovaya5c.dir/sobel.c.i"
-	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/argo/Desktop/For-PenzGTU/S-E-M-E-S-T-R-O-V-I-E/semestrovaya5c/sobel.c > CMakeFiles/semestrovaya5c.dir/sobel.c.i
+CMakeFiles/semestrovaya5c.dir/bl.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/semestrovaya5c.dir/bl.c.i"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/argo/Desktop/For-PenzGTU/S-E-M-E-S-T-R-O-V-I-E/semestrovaya5c/bl.c > CMakeFiles/semestrovaya5c.dir/bl.c.i
 
-CMakeFiles/semestrovaya5c.dir/sobel.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/semestrovaya5c.dir/sobel.c.s"
-	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/argo/Desktop/For-PenzGTU/S-E-M-E-S-T-R-O-V-I-E/semestrovaya5c/sobel.c -o CMakeFiles/semestrovaya5c.dir/sobel.c.s
+CMakeFiles/semestrovaya5c.dir/bl.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/semestrovaya5c.dir/bl.c.s"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/argo/Desktop/For-PenzGTU/S-E-M-E-S-T-R-O-V-I-E/semestrovaya5c/bl.c -o CMakeFiles/semestrovaya5c.dir/bl.c.s
 
-CMakeFiles/semestrovaya5c.dir/sobel.c.o.requires:
+CMakeFiles/semestrovaya5c.dir/bl.c.o.requires:
 
-.PHONY : CMakeFiles/semestrovaya5c.dir/sobel.c.o.requires
+.PHONY : CMakeFiles/semestrovaya5c.dir/bl.c.o.requires
 
-CMakeFiles/semestrovaya5c.dir/sobel.c.o.provides: CMakeFiles/semestrovaya5c.dir/sobel.c.o.requires
-	$(MAKE) -f CMakeFiles/semestrovaya5c.dir/build.make CMakeFiles/semestrovaya5c.dir/sobel.c.o.provides.build
-.PHONY : CMakeFiles/semestrovaya5c.dir/sobel.c.o.provides
+CMakeFiles/semestrovaya5c.dir/bl.c.o.provides: CMakeFiles/semestrovaya5c.dir/bl.c.o.requires
+	$(MAKE) -f CMakeFiles/semestrovaya5c.dir/build.make CMakeFiles/semestrovaya5c.dir/bl.c.o.provides.build
+.PHONY : CMakeFiles/semestrovaya5c.dir/bl.c.o.provides
 
-CMakeFiles/semestrovaya5c.dir/sobel.c.o.provides.build: CMakeFiles/semestrovaya5c.dir/sobel.c.o
+CMakeFiles/semestrovaya5c.dir/bl.c.o.provides.build: CMakeFiles/semestrovaya5c.dir/bl.c.o
 
 
 CMakeFiles/semestrovaya5c.dir/qdbmp.c.o: CMakeFiles/semestrovaya5c.dir/flags.make
@@ -107,13 +107,13 @@ CMakeFiles/semestrovaya5c.dir/qdbmp.c.o.provides.build: CMakeFiles/semestrovaya5
 
 # Object files for target semestrovaya5c
 semestrovaya5c_OBJECTS = \
-"CMakeFiles/semestrovaya5c.dir/sobel.c.o" \
+"CMakeFiles/semestrovaya5c.dir/bl.c.o" \
 "CMakeFiles/semestrovaya5c.dir/qdbmp.c.o"
 
 # External object files for target semestrovaya5c
 semestrovaya5c_EXTERNAL_OBJECTS =
 
-semestrovaya5c: CMakeFiles/semestrovaya5c.dir/sobel.c.o
+semestrovaya5c: CMakeFiles/semestrovaya5c.dir/bl.c.o
 semestrovaya5c: CMakeFiles/semestrovaya5c.dir/qdbmp.c.o
 semestrovaya5c: CMakeFiles/semestrovaya5c.dir/build.make
 semestrovaya5c: CMakeFiles/semestrovaya5c.dir/link.txt
@@ -125,7 +125,7 @@ CMakeFiles/semestrovaya5c.dir/build: semestrovaya5c
 
 .PHONY : CMakeFiles/semestrovaya5c.dir/build
 
-CMakeFiles/semestrovaya5c.dir/requires: CMakeFiles/semestrovaya5c.dir/sobel.c.o.requires
+CMakeFiles/semestrovaya5c.dir/requires: CMakeFiles/semestrovaya5c.dir/bl.c.o.requires
 CMakeFiles/semestrovaya5c.dir/requires: CMakeFiles/semestrovaya5c.dir/qdbmp.c.o.requires
 
 .PHONY : CMakeFiles/semestrovaya5c.dir/requires
