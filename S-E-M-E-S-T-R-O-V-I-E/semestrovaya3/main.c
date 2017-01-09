@@ -11,13 +11,10 @@ int main() {
     for (i = 0; i<5000; i++)
     {   x_int[i] = rand();
         y_int[i] = rand();
-        printf("%i %i\n", x_int[i],y_int[i]);
         x_float[i] = rand();
         y_float[i] = rand();
-        printf("%f %f\n", x_float[i],y_float[i]);
         x_double[i] = rand();
         y_double[i] = rand();
-        printf("%lf %lf\n", x_double[i],y_double[i]);
     }
     for (j = 0; j <4; ++j) {
         start = omp_get_wtime();
