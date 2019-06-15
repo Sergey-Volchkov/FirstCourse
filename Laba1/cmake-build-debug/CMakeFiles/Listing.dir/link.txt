@@ -1,1 +1,0 @@
-/usr/bin/cc   -std=c90 -g   CMakeFiles/Listing.dir/Variant60.c.o  -o Listing -lm 

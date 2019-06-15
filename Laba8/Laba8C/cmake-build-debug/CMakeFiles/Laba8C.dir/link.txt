@@ -1,1 +1,0 @@
-/usr/bin/cc   -std=c90 -g   CMakeFiles/Laba8C.dir/main.c.o  -o Laba8C -lm 

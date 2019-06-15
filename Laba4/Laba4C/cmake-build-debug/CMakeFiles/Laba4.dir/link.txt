@@ -1,1 +1,0 @@
-/usr/bin/cc   -std=c90 -g   CMakeFiles/Laba4.dir/laba4.c.o  -o Laba4 -lm 

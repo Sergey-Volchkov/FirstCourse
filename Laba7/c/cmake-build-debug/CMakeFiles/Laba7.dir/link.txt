@@ -1,1 +1,0 @@
-/usr/bin/cc   -std=c90 -g   CMakeFiles/Laba7.dir/main.c.o  -o Laba7 -lm 

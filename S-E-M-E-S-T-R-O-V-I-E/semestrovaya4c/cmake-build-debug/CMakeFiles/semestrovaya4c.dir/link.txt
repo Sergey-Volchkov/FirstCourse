@@ -1,1 +1,0 @@
-/usr/bin/cc   -std=c90 -fopenmp -g   CMakeFiles/semestrovaya4c.dir/main.c.o  -o semestrovaya4c -lm -lgomp 

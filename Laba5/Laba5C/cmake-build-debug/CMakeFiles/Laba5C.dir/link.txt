@@ -1,1 +1,0 @@
-/usr/bin/cc   -std=c90 -g   CMakeFiles/Laba5C.dir/variant60.c.o  -o Laba5C -lm 

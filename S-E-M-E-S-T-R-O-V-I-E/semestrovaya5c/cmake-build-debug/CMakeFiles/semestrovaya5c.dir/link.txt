@@ -1,1 +1,0 @@
-/usr/bin/cc   -std=c90 -g   CMakeFiles/semestrovaya5c.dir/bl.c.o CMakeFiles/semestrovaya5c.dir/qdbmp.c.o  -o semestrovaya5c -lm 

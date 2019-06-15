@@ -1,3 +1,0 @@
-/home/argo/Desktop/For-PenzGTU/Laba1/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/argo/Desktop/For-PenzGTU/Laba1/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/argo/Desktop/For-PenzGTU/Laba1/cmake-build-debug/CMakeFiles/Listing.dir

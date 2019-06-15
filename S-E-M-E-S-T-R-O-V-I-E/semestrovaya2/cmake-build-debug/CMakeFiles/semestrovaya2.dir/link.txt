@@ -1,1 +1,0 @@
-/usr/bin/cc   -std=c90 -g   CMakeFiles/semestrovaya2.dir/main.c.o  -o semestrovaya2 
